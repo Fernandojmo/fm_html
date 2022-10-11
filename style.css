@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+#nav-header > div > a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 1rem;
+}
+#logo-empresa{
+    height: 4rem;
+}
+#main{
+    background-color: #4B574F;
+}
+
+/* #wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-rows: auto;
+    max-width:fit-content;
+    padding: 1rem;
+    margin: 1rem;
+    column-gap: 2rem;
+} */
+
+#wrapper > div > h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-justify:distribute-all-lines;
+}
+#wrapper > div >p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem 0rem 1rem;
+}
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#textos{
+    /* background-color: aqua; */
+    padding: 1rem;
+    flex-basis: 20rem;
+    flex-grow: 999;
+    
+}
+#jumbotronimg{
+    flex-basis: 0rem;
+    flex-grow: 1;
+    padding: 1rem;
+    min-width: 60%;
+    text-align: center;
+    /* background-color: blueviolet; */
+
+    
+} 
+#jumbotronimg > img{
+    /* display: inline-block; */
+    max-width: 700px;
+    
+
+}
+/* #jumbotronimg{
+    width: 100%;
+    display: inline-block;
+    max-width: 30rem;
+    height: auto;
+} */
+
+@media screen and (max-width: 500px) {
+    #nav-header {
+        display: grid;
+        text-align: center;
+        float: none;
+        margin: 1rem;
+        row-gap: 0.5rem;
+
+    }
+    #nav-header > div > a {
+        font-size: 0.75rem;
+    }
+    #logo-empresa{
+        height: 3rem;
+    }
+    /* #wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+        margin: 1rem;
+        column-gap: 2rem;
+    }
+    #wrapper > div{
+        text-align: center;
+    }
+    #wrapper > div > h1{
+        font-size:larger;
+    } */
+
+}
+@media screen and (max-width: 700px) {
+    #nav-header {
+        display: grid;
+        text-align: center;
+        float: none;
+        margin: 1rem;
+        row-gap: 0.5rem;
+
+    }
+    #jumbotronimg > img{
+        width: 100%;
+        max-width: 30rem;
+        height: auto;
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+} 
+
