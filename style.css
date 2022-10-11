@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0rem;
 }
 #nav-header > div > a {
     text-decoration: none;
@@ -65,16 +65,14 @@
     flex-grow: 1;
     padding: 1rem;
     min-width: 60%;
-    text-align: center;
+    /* text-align: center; */
     /* background-color: blueviolet; */
 
     
 } 
 #jumbotronimg > img{
     /* display: inline-block; */
-    max-width: 700px;
-    
-
+    max-width: 700px;  
 }
 /* #jumbotronimg{
     width: 100%;
@@ -83,12 +81,12 @@
     height: auto;
 } */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     #nav-header {
         display: grid;
         text-align: center;
         float: none;
-        margin: 1rem;
+        margin: 0rem;
         row-gap: 0.5rem;
 
     }
@@ -113,7 +111,7 @@
     } */
 
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
     #nav-header {
         display: grid;
         text-align: center;
@@ -124,10 +122,11 @@
     }
     #jumbotronimg > img{
         width: 100%;
-        max-width: 30rem;
+        max-width: 650px; 
         height: auto;
-        margin-left: 1rem;
+        margin-right: 1rem;
         text-align: center;
+
     }
 
 } 
