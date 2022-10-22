@@ -87,7 +87,7 @@
         text-align: center;
         float: none;
         margin: 0rem;
-        row-gap: 0.5rem;
+        row-gap: 0.2rem;
 
     }
     #nav-header > div > a {
@@ -117,7 +117,7 @@
         text-align: center;
         float: none;
         margin: 1rem;
-        row-gap: 0.5rem;
+        row-gap: 0.2rem;
 
     }
     #jumbotronimg > img{
