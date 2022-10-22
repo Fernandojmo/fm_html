@@ -131,17 +131,27 @@
 
 } 
 
+#h1portafolio{
+   text-align: center;
+   padding: 1rem;
+}
+#pportafolio{
+    text-align: center;
+    padding: 1rem;
+ }
+
 
 .container-img{
     width: 100%;
     max-width: 1000px;
     margin: auto;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     margin-bottom: 60px;
+    padding: 1rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    gap: 20px;
+    gap: 10px;
     grid-template-areas:
         "a b e c"
         "d d f f"
