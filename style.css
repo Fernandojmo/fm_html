@@ -130,6 +130,16 @@
     }
 
 } 
+#img_1_servicios{
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+#img_2_servicios{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
 
 #h1portafolio{
    text-align: center;
