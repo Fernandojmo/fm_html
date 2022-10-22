@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
     <header id="header">
@@ -24,24 +25,75 @@
             </div>
         </nav>
     </header>
-    <jumbotron>
-        <main id="main">
-            <div id="wrapper">
-                <div id="textos">
-                    <h1>Tenemos todo lo que necesitas para poner en marcha tu negocio WEB</h1>
-                    <p>Administra tu negocio de forma sencilla.</p>
-                    <form action="frm_contacto">
-                        <input type="email" id="correo" required>
-                        <input type="submit" value="Enviar">
-                    </form>    
-                    <p>Te contactaremos a la brevedad y podras darnos a conocer tus necesidades.</p>
-                    <p><a href="">Conoce nuestros términos y condiciones</a></p>
+    <Main>
+        <jumbotron>
+            <main id="main">
+                <div id="wrapper">
+                    <div id="textos">
+                        <h1>Tenemos todo lo que necesitas para poner en marcha tu negocio WEB</h1>
+                        <p>Administra tu negocio de forma sencilla.</p>
+                        <form action="frm_contacto">
+                            <input type="email" id="correo" required>
+                            <input type="submit" value="Enviar">
+                        </form>    
+                        <p>Te contactaremos a la brevedad y podras darnos a conocer tus necesidades.</p>
+                        <p><a href="">Conoce nuestros términos y condiciones</a></p>
+                    </div>
+                    <div id="jumbotronimg">
+                        <img src="/assets/images/pw2.jpg" alt="" class="img">
+                    </div>
                 </div>
-                <div id="jumbotronimg">
-                    <img src="/assets/images/pw2.jpg" alt="" class="img">
+            </main>
+        </jumbotron>
+        <section>
+            <h1 class="text-center m-3">Nuestros Servicios</h1>
+            <div class="row justify-content-center mt-3">
+                <div class="col-xl-4 col-md-6 col-sm-6">
+                    <div class="p-3 bg-light border m-1 shadow mb-5 bg-body rounded" style="height: 46rem">
+                        <img src="/assets/images/fotografia2.jpg" alt="" class="img-thumbnail">
+                        <h3 class="text-center m-2">Fotografia</h3>
+                        <p>Servcio de fotografia y edición fotografica integral.</p>
+                        <ul>
+                        <li>
+                            <p>Fotografia de productos</p>
+                        </li>
+                        <li>
+                            <p>Fotografia de alimentos</p>
+                        </li>
+                        <li>
+                            <p>Fotografia ambientes empresariales</p>
+                        </li>
+                        <li>
+                            <p>Retratos</p>
+                        </li>
+                        </ul>
+                        <p class="text-center m-3"><button type="button" class="btn btn-dark">CONTRATAR</button></p>
+                        <p class="fs-6 fw-lighter lh-1 text-secondary m-2 text-center">Revisa los <a href="">terminos y condiciones.</a> del servicio</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-6">
+                    <div class="p-3 bg-light border m-1 shadow mb-5 bg-body rounded" style="height: 46rem">
+                        <img src="/assets/images/programar2.jpg" alt="" class="img-thumbnail">
+                        <h3 class="text-center m-2">Desarrollo WEB</h3>
+                        <p>Servcio de desarrollo y diseño de paginas web responsivas.</p>
+                        <ul>
+                        <li>
+                            <p>Diseño de experiencia de usuario</p>
+                        </li>
+                        <li>
+                            <p>Diseño de interfaz de usuario</p>
+                        </li>
+                        <li>
+                            <p>Desarrollo codigo de pagina</p>
+                        </li>
+                        </ul>
+                        <p class="text-center m-3"><button type="button" class="btn btn-dark">CONTRATAR</button></p>
+                        <p class="fs-6 fw-lighter lh-1 text-secondary m-2 text-center">Revisa los <a href="">terminos y condiciones.</a> del servicio</p>
+                    </div>
                 </div>
             </div>
-        </main>
-    </jumbotron>
+        </section>
+    </Main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
