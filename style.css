@@ -132,4 +132,55 @@
 } 
 
 
+.container-img{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    grid-template-areas:
+        "a b e c"
+        "d d f f"
+        "g h f f"
+    ;
+}
+#a1{
+    grid-area: a;
+}
+#a2{
+    grid-area: b;
+}
+#a3{
+    grid-area: c;
+}
+#a4{
+    grid-area: d;
+}
+#a5{
+    grid-area: e;
+}
+#a6{
+    grid-area: f;
+}
+#a7{
+    grid-area: g;
+}
+#a8{
+    grid-area: h;
+}
 
+
+.container-img .box-img figure{
+    width: 100%;
+    height: 100%;
+}
+
+.container-img .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
