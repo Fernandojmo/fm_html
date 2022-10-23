@@ -24,16 +24,6 @@
     background-color: #4B574F;
 }
 
-/* #wrapper{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    grid-template-rows: auto;
-    max-width:fit-content;
-    padding: 1rem;
-    margin: 1rem;
-    column-gap: 2rem;
-} */
-
 #wrapper > div > h1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -54,7 +44,6 @@
     align-items: center;
 }
 #textos{
-    /* background-color: aqua; */
     padding: 1rem;
     flex-basis: 20rem;
     flex-grow: 999;
@@ -64,22 +53,11 @@
     flex-basis: 0rem;
     flex-grow: 1;
     padding: 1rem;
-    min-width: 60%;
-    /* text-align: center; */
-    /* background-color: blueviolet; */
-
-    
+    min-width: 60%; 
 } 
 #jumbotronimg > img{
-    /* display: inline-block; */
     max-width: 700px;  
 }
-/* #jumbotronimg{
-    width: 100%;
-    display: inline-block;
-    max-width: 30rem;
-    height: auto;
-} */
 
 @media screen and (max-width: 550px) {
     #nav-header {
@@ -96,20 +74,6 @@
     #logo-empresa{
         height: 3rem;
     }
-    /* #wrapper{
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 2rem;
-        margin: 1rem;
-        column-gap: 2rem;
-    }
-    #wrapper > div{
-        text-align: center;
-    }
-    #wrapper > div > h1{
-        font-size:larger;
-    } */
-
 }
 @media screen and (max-width: 720px) {
     #nav-header {
@@ -155,7 +119,6 @@
     width: 100%;
     max-width: 1000px;
     margin: auto;
-    /* margin-top: 60px; */
     margin-bottom: 60px;
     padding: 1rem;
     display: grid;
